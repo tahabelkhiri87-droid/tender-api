@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: tender-api
+    env: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
